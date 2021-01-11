@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun setupBottomSheet() {
 
-        val configPeekHeight = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 50f, resources.displayMetrics)
+        val configPeekHeight = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 60f, resources.displayMetrics)
         val configCallback = object : BottomSheetBehavior.BottomSheetCallback(){
             override fun onStateChanged(bottomSheet: View, newState: Int) {
                 bottomSheet.bringToFront()
